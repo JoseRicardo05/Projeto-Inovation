@@ -26,3 +26,5 @@ Durante o projeto, validei diversas formas de extração de dados:
 **Busca de membros ativos por cargo:**
 ```sql
 SELECT Nome, Cargo FROM Membro_Equipe WHERE Status_Membro = 'Ativo' AND Cargo LIKE '%Dados%';
+
+
